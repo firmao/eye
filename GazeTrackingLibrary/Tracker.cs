@@ -738,6 +738,7 @@ namespace GazeTrackingLibrary
 
             String line = "" + this.trackData.TimeStamp + "," + gX + "," + gY + "," + this.trackData.PupilDataLeft.Diameter + "," + this.trackData.PupilDataRight.Diameter;
             //appendToFile(fileName, linha);
+            //one more line
             appendToFileCSV(fileName2, line);
 
             #endregion
